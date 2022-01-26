@@ -9,11 +9,7 @@ export default function Footer(props: PropTypes) {
         <Col xs="auto" className="mx-auto">
           <Nav>
             <Nav.Item>
-              <Nav.Link>Privacy Policy</Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item>
-              <Nav.Link>Terms of Use</Nav.Link>
+              <Nav.Link href="privacy.pdf">Privacy Policy</Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>
