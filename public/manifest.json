@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SuperController",
+  "name": "Give your MIDI devices super powers; take control of the lights, messages, and communications between controllers.",
   "icons": [
     {
       "src": "favicon.ico",
