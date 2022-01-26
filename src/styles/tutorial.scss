@@ -1,0 +1,31 @@
+@import './variables.scss';
+
+.tutorial .red {
+  background-color: $main-red;
+}
+
+.tutorial .yellow {
+  background-color: $main-yellow;
+}
+
+.tutorial h5 {
+  font-size: 1em;
+  color: #808080;
+}
+
+.tutorial h3 {
+  font-size: 2.5em;
+  color: #191819;
+  text-decoration: underline;
+  font-weight: bold;
+  white-space: pre-line;
+}
+
+.tutorial p {
+  color: #959595;
+  line-height: 2.2em;
+}
+
+.tutorial img {
+  width: 90%;
+}

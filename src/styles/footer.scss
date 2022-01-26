@@ -1,0 +1,9 @@
+@import './variables.scss';
+
+#footer {
+  background-color: $main-red;
+}
+
+#footer .nav-link {
+  color: white !important;
+}

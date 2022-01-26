@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+#splash {
+  background: rgb(255, 69, 124);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 69, 124, 1) 0%,
+    rgba(252, 218, 120, 1) 100%
+  );
+}
+
+#splash h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+#splash h4 {
+  color: white;
+  font-weight: lighter;
+}
+
+#splash .emphasis {
+  color: $main-yellow;
+}
