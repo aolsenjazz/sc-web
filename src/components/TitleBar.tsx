@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import mobile from 'is-mobile';
 
 import { Navbar, Nav, NavDropdown, Dropdown } from 'react-bootstrap';
 import { ReactComponent as Logo } from '../assets/logo.svg';
@@ -40,7 +41,7 @@ export default function TitleBar(props: PropTypes) {
           <Nav.Link href="https://github.com/aolsenjazz/super-controller">
             SOURCE
           </Nav.Link>
-          <NavDropdown title="DOWNLOAD" align="end">
+          <NavDropdown hidden={mobile()} title="DOWNLOAD" align="end">
             <DownloadButton platform="mac" variant="link" />
             <DownloadButton platform="arm64" variant="link" />
             <Dropdown.Divider />

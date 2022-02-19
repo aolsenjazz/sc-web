@@ -1,4 +1,6 @@
 import { Container, Col, Stack, Form, Row } from 'react-bootstrap';
+import mobile from 'is-mobile';
+
 import DownloadButton from './DownloadButton';
 import Laptop from '../assets/laptop.png';
 
@@ -20,7 +22,10 @@ export default function Splash(props: PropTypes) {
                 Take control of the lights, messages, and<br></br>
                 communications between controllers.
               </h4>
-              <Form className="me-5 mt-3 mx-auto mx-md-0 col-me-2">
+              <Form
+                hidden={mobile()}
+                className="me-5 mt-3 mx-auto mx-md-0 col-me-2"
+              >
                 <DownloadButton platform="mac" className="me-2 mb-2" />
                 <DownloadButton platform="arm64" className="mb-2" />
               </Form>
