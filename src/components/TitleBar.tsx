@@ -37,6 +37,7 @@ export default function TitleBar(props: PropTypes) {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="me-2" />
       <Navbar.Collapse className="justify-content-end me-md-5">
         <Nav className="mx-3">
+          <Nav.Link href="https://help.supercontroller.net">KNOWLEDGEBASE</Nav.Link>
           <Nav.Link href="mailto:aolsenjazz@gmail.com">CONTACT</Nav.Link>
           <Nav.Link href="https://github.com/aolsenjazz/super-controller">
             SOURCE
